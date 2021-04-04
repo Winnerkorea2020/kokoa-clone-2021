@@ -1,0 +1,40 @@
+.component-icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.component-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  padding: 15px;
+  box-sizing: border-box;
+  transition: color 0.3s ease-in-out;
+  color: rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.component-icons__icon span {
+  font-size: 15px;
+}
+
+.component-icons:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.component-icons__icon i {
+  font-size: 35px;
+}
+
+.component-icons__icon span {
+  margin-top: 18px;
+  font-weight: bold;
+}
+
+.component-icons__dot {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
